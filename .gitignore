@@ -1,0 +1,33 @@
+## --- Visual Studio ---
+## Objetos y binarios de compilación
+[Bb]in/
+[Oo]bj/
+
+## Archivos de usuario y caché
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- JetBrains Rider ---
+## Carpeta de configuración del IDE
+.idea/
+
+## Archivos específicos de Rider
+*.sln.iml
+*.csproj.iml
+*.user.iml
+*.sln.dotSettings.user
+
+## --- Herramientas de .NET ---
+## Paquetes NuGet
+*.nupkg
+.nuget/
+packages/
+
+## Archivos de publicación
+*.publish.xml
+publish/
+
+## --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
