@@ -1,33 +1,42 @@
-## --- Visual Studio ---
-## Objetos y binarios de compilación
-[Bb]in/
+## Visual Studio ##
+# Cachés, archivos de usuario y compilaciones locales
 [Oo]bj/
-
-## Archivos de usuario y caché
+[Bb]in/
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
+.vs/
+_ReSharper*?.Cache/
+*.pidb
+*.userprefs
 
-## --- JetBrains Rider ---
-## Carpeta de configuración del IDE
+## JetBrains Rider ##
+# Configuración específica de Rider para el proyecto
 .idea/
+*.iws
+*.iml
+*.ipr
 
-## Archivos específicos de Rider
-*.sln.iml
-*.csproj.iml
-*.user.iml
-*.sln.dotSettings.user
-
-## --- Herramientas de .NET ---
-## Paquetes NuGet
-*.nupkg
-.nuget/
-packages/
-
-## Archivos de publicación
-*.publish.xml
-publish/
-
-## --- Sistema Operativo ---
-.DS_Store
+## Sistema Operativo / Otros ##
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Compilación general y backups
+*.bak
+*.cache
+*.log
+packages/
+*.nupkg

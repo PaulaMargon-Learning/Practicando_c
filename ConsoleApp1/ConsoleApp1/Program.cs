@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+int alturaEnCentimetros;
+alturaEnCentimetros = 180;
+
+Console.WriteLine(alturaEnCentimetros);
