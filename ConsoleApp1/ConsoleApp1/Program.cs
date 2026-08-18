@@ -1,6 +1,6 @@
 ﻿using ConsoleApp1;
 
-Level4.Ejecutar();
+Level6.Ejecutar();
 
 //PLANTILLA
 

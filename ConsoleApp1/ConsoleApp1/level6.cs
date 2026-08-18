@@ -28,6 +28,20 @@ namespace ConsoleApp1
             //     • Write a program that lets you input the triangle’s base size and height.
             //     • Compute the area of a triangle by turning the above equation into code.
             //     • Write the result of the computation.
+
+            int baseTriangulo= 0;
+            int altura = 0;
+            
+
+                Console.WriteLine("Cual es la base");
+            string preguntabase = Console.ReadLine();
+            Console.WriteLine("Cual es la altura");
+            string preguntaAltura = Console.ReadLine();
+            baseTriangulo = Convert.ToInt32(preguntabase);
+            altura = Convert.ToInt32(preguntaAltura);
+            int area = (baseTriangulo * altura) / 2;
+            Console.WriteLine("El resultado es" + area );
+            
         }
     }
 }
