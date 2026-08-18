@@ -34,9 +34,9 @@ namespace ConsoleApp1
             
 
                 Console.WriteLine("Cual es la base");
-            string preguntabase = Console.ReadLine();
+            string? preguntabase = Console.ReadLine();
             Console.WriteLine("Cual es la altura");
-            string preguntaAltura = Console.ReadLine();
+            string? preguntaAltura = Console.ReadLine();
             baseTriangulo = Convert.ToInt32(preguntabase);
             altura = Convert.ToInt32(preguntaAltura);
             int area = (baseTriangulo * altura) / 2;
